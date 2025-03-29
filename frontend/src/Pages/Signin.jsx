@@ -5,6 +5,7 @@ import InputComponent from "../Components/InputComponent";
 import BG from '../assets/BgInferno.svg';
 
 export default function Signin() {
+  
   const navigate = useNavigate();
 
   const handleSubmit = () => {
