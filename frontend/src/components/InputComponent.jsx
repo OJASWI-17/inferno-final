@@ -6,12 +6,16 @@
 // }
 
 // In your InputComponent
-export default function InputComponent({ type, placeholder, className }) {
-    return (
-      <input
-        type={type}
-        placeholder={placeholder}
-        className={`${className} w-full px-3 py-2 border rounded-md focus:outline-none`}
-      />
-    );
-  }
+export default function InputComponent({ type, name, value, onChange, placeholder, className }) {
+  return (
+    <input
+      type={type}
+      name={name}
+      value={value}
+      onChange={onChange}
+      placeholder={placeholder}
+      className={`${className} w-full px-3 py-2 border rounded-md focus:outline-none`}
+      required
+    />
+  );
+}
