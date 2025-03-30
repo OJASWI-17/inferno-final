@@ -19,7 +19,7 @@ function App() {
   const location = useLocation(); // Get the current route
 
   // Hide Navbar for Signin and Signup pages
-  const hideNavbar = location.pathname === "/signin" || location.pathname === "/signup";
+  const hideNavbar = location.pathname === "/" || location.pathname === "/signin";
 
   return (
     <>
@@ -27,8 +27,8 @@ function App() {
       <StarBackground />
       <Routes>
         <Route path="/signin" element={<Signin />} />
-        <Route path="/signup" element={<Signup />} />
-        <Route path="/" element={<Landing />} />
+        <Route path="/" element={<Signup />} />
+        <Route path="/landing" element={<Landing />} />
         <Route path="/stocklist" element={<Stocklist />} />
         <Route path="/stockchart" element={<StockChart />} />
         <Route path="/portfolio" element={<Portfolio />} />

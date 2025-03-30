@@ -24,7 +24,7 @@ const Navbar = () => {
         >
             <div className="max-w-9xl mx-auto flex justify-between items-center">
                 <div className="flex items-center space-x-3 animate-fade-in" style={{ animationDelay: '0.1s' }}>
-                    <Link to="/" className="flex items-center space-x-3 animate-fade-in cursor-pointer px-3 py-2 rounded-md hover:bg-gray-700 transition-all duration-300" style={{ animationDelay: '0.1s' }}>
+                    <Link to="/landing" className="flex items-center space-x-3 animate-fade-in cursor-pointer px-3 py-2 rounded-md hover:bg-gray-700 transition-all duration-300" style={{ animationDelay: '0.1s' }}>
                         <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center glow-text button-glow">
                             <span className="text-white font-bold text-xl">I</span>
                         </div>
@@ -41,12 +41,12 @@ const Navbar = () => {
           >
             Login
           </Link> */}
-                    <Link
+                    {/* <Link
                         to="/dashboard"
                         className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-500 hover:to-blue-600 text-white font-medium px-4 py-2 rounded-full button-hover-effect flex items-center justify-center"
                     >
                         Dashboard
-                    </Link>
+                    </Link> */}
                     <Link
                         to="/orderhistory"
                         className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-500 hover:to-blue-600 text-white font-medium px-4 py-2 rounded-full button-hover-effect flex items-center justify-center"

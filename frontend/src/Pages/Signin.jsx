@@ -33,7 +33,7 @@ export default function Signin() {
       }
 
       localStorage.setItem("token", data.token || "dummy_token"); // Ensure token storage
-      navigate("/dashboard");
+      navigate("/landing");
     } catch (err) {
       setError(err.message || "Login failed");
     }

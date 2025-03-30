@@ -5,6 +5,8 @@ import Heading from "../components/Heading";
 import InputComponent from "../components/InputComponent";
 import BG from "../assets/BgInferno.svg";
 
+
+
 export default function Signup() {
   const navigate = useNavigate();
   const [formData, setFormData] = useState({

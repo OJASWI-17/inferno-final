@@ -78,7 +78,7 @@ const StockChart = () => {
       <StarBackground />
       <Navbar />
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 pt-28 pb-16">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 pt-28 pb-16 text-white">
         {/* Stock Header Section */}
         <div className="glass-panel p-6 rounded-xl backdrop-blur-xl border border-gray-700 mb-6">
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center">
